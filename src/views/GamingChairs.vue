@@ -1,24 +1,42 @@
 <template>
-  <div class="home">
+  <div class="GamingChairs">
     <div class="-mb-px flex justify-center">
-         <a class="no-underline text-teal-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+
+      <router-link to="/">
+         <p class="no-underline text-teal-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
              Gaming Accessories
-         </a>
-         <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+         </p>
+      </router-link>
+
+      <router-link to="/GamingChairs">
+         <p class="no-underline text-grey-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8" >
              Gaming Chairs
-         </a>
-         <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+         </p>
+      </router-link>
+
+      <router-link to="/GamingController">
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
              Gaming Controller
-         </a>
-         <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
-             Gamig Headsets
-         </a>
-         <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+         </p>
+      </router-link>
+
+      <router-link to="/GamingHeadsets">
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
+             Gaming Headsets
+         </p>
+      </router-link>
+
+      <router-link to="/GamingKeyboards">
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
              Gaming Keyboards
-         </a>
-         <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+         </p>
+      </router-link>
+
+      <router-link to="/GamingMice">
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
              Gaming Mice
-         </a>
+         </p>
+      </router-link>
      </div>
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
