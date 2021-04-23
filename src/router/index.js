@@ -5,6 +5,7 @@ import GamingController from '../views/GamingController.vue'
 import GamingHeadsets from '../views/GamingHeadsets.vue'
 import GamingKeyboards from '../views/GamingKeyboards.vue'
 import GamingMice from '../views/GamingMice.vue'
+import Team from '../views/Team.vue'
 
 
 const routes = [{
@@ -45,7 +46,12 @@ const routes = [{
         path: '/GamingMice',
         name: '/GamingMice',
         component: GamingMice
-    }
+    },
+    {
+        path: '/Team',
+        name: '/Team',
+        component: Team
+    },
 ]
 
 const router = createRouter({

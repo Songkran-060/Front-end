@@ -1,39 +1,47 @@
 <template>
+<div id="main" class="grid grid-cols-3 gap-1 justify-evenly text-white"> 
+        <div class="bg-gray-100 w-26 h-96"></div>
+        <div class="bg-gray-200 w-26 h-96"></div>
+        <div class="bg-gray-300 w-26 h-96">
+          <!-- <img alt="content" class="object-cover object-center h-full w-full" src="https://thegadgetflow.com/wp-content/uploads/2021/01/Razer-Seiren-Mini-Portable-Microphone-02.jpg&quot">
+        </div> -->
+        </div>
+</div> 
   <div class="GamingMice">
     <div class="-mb-px flex justify-center">
 
       <router-link to="/">
-         <p class="no-underline text-teal-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
+         <p class="no-underline text-teal-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Accessories
          </p>
       </router-link>
 
       <router-link to="/GamingChairs">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Chairs
          </p>
       </router-link>
 
       <router-link to="/GamingController">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Controller
          </p>
       </router-link>
 
       <router-link to="/GamingHeadsets">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Headsets
          </p>
       </router-link>
 
       <router-link to="/GamingKeyboards">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" >
+         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Keyboards
          </p>
       </router-link>
 
       <router-link to="/GamingMice">
-         <p class="no-underline text-grey-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8" >
+         <p class="no-underline text-grey-dark border-b-2 border-teal-dark border-paleviolet uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Mice
          </p>
       </router-link>
@@ -52,8 +60,8 @@
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503">
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Shooting Stars</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-darkviolet inline-flex items-center ">More >></a></p>
-        <!-- <a class="text-darkviolet inline-flex items-center mt-3">Learn More
+        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -75,8 +83,8 @@
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504">
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The Catalyzer</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-darkviolet inline-flex items-center ">More >></a></p>
-        <!-- <a class="text-darkviolet inline-flex items-center mt-3">Learn More
+        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -98,8 +106,8 @@
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505">
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The 400 Blows</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-darkviolet inline-flex items-center ">More >></a></p>
-        <!-- <a class="text-darkviolet inline-flex items-center mt-3">Learn More
+        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -130,8 +138,8 @@
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503">
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Shooting Stars</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-darkviolet inline-flex items-center ">More >></a></p>
-        <!-- <a class="text-darkviolet inline-flex items-center mt-3">Learn More
+        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -153,8 +161,8 @@
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504">
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The Catalyzer</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-darkviolet inline-flex items-center ">More >></a></p>
-        <!-- <a class="text-darkviolet inline-flex items-center mt-3">Learn More
+        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -176,8 +184,8 @@
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505">
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The 400 Blows</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-darkviolet inline-flex items-center ">More >></a></p>
-        <!-- <a class="text-darkviolet inline-flex items-center mt-3">Learn More
+        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -199,22 +207,22 @@
   
   <div>
     <div class="inline-flex py-24">
-      <button class="bg-darkviolet hover:bg-gray-300 text-white font-bold py-2 px-4 rounded">
-      Previous
+      <!-- <button class="bg-paleviolet hover:bg-gray-300 text-white font-bold py-2 px-4 rounded">
+      « Previous
       </button>
       
-      <button class="bg-transparent hover:bg-darkviolet text-darkviolet font-semibold hover:text-white py-2 px-4 ml-5 border border-darkviolet hover:border-transparent rounded">
+      <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-5 border border-paleviolet hover:border-transparent rounded">
       1
-      </button>
-      <button class="bg-transparent hover:bg-darkviolet text-darkviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-darkviolet hover:border-transparent rounded">
+      </button> -->
+      <!-- <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-paleviolet hover:border-transparent rounded">
       2
       </button>
-      <button class="bg-transparent hover:bg-darkviolet text-darkviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-darkviolet hover:border-transparent rounded">
+      <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-paleviolet hover:border-transparent rounded">
       3
-      </button>
+      </button> -->
 
-      <button class="bg-darkviolet hover:bg-gray-300 text-white font-bold py-2 px-4 ml-5 rounded">
-      Next
+      <button class="bg-paleviolet hover:bg-gray-300 text-white font-bold py-2 px-4 ml-5 rounded-full">
+      Browse All Products ▾
       </button>
     </div>
   </div>
@@ -228,7 +236,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Home',
+  // name: 'Home',
   components: {
     // HelloWorld
   }
