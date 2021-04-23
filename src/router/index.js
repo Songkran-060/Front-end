@@ -6,7 +6,8 @@ import GamingHeadsets from '../views/GamingHeadsets.vue'
 import GamingKeyboards from '../views/GamingKeyboards.vue'
 import GamingMice from '../views/GamingMice.vue'
 import Team from '../views/Team.vue'
-
+import Add from '../views/Add.vue'
+import asr1 from '../views/asr1.vue'
 
 const routes = [{
         path: '/',
@@ -51,6 +52,16 @@ const routes = [{
         path: '/Team',
         name: '/Team',
         component: Team
+    },
+    {
+        path: '/Add',
+        name: '/Add',
+        component: Add
+    },
+    {
+        path: '/asr1',
+        name: '/asr1',
+        component: asr1
     },
 ]
 

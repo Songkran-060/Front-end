@@ -13,37 +13,37 @@
     <div class="-mb-px flex justify-center">
       
         <router-link to="/">
-         <p class="no-underline text-paleviolet border-b-2 border-teal-dark border-paleviolet uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-teal-white uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Accessories
          </p>
         </router-link>
 
          <router-link to="/GamingChairs">
-         <p class="no-underline text-black border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Chairs
          </p>
          </router-link>
 
         <router-link to="/GamingController">
-         <p class="no-underline text-black border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Controller
          </p>
         </router-link>
 
         <router-link to="/GamingHeadsets">
-         <p class="no-underline text-black border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Headsets
          </p>
         </router-link>
 
         <router-link to="/GamingKeyboards">
-         <p class="no-underline text-black border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Keyboards
          </p>
         </router-link>
 
         <router-link to="/GamingMice">
-         <p class="no-underline text-black border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Mice
          </p>
         </router-link>
@@ -61,22 +61,25 @@
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503">
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Shooting Stars</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+
+        <router-link to="/asr1">
+        <h2 class="text-xl font-medium title-font text-white mt-5">Shooting Stars</h2>
+        <p class="text-white leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-red-500 inline-flex items-center ">More »</a></p>
         <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a> -->
+        </router-link>
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          <p>+</p>
+          <p class="text-white">+</p>
         </div>
       </div>
       
@@ -84,22 +87,22 @@
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504">
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The Catalyzer</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <h2 class="text-xl font-medium title-font text-white mt-5">The Catalyzer</h2>
+        <p class="text-white leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-red-500 inline-flex items-center ">More »</a></p>
         <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          <p>+</p>
+          <p class="text-white">+</p>
         </div>
 
       </div>
@@ -107,22 +110,22 @@
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505">
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The 400 Blows</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <h2 class="text-xl font-medium title-font text-white mt-5">The 400 Blows</h2>
+        <p class="text-white leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-red-500 inline-flex items-center ">More »</a></p>
         <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          <p>+</p>
+          <p class="text-white">+</p>
         </div>
 
       </div>
@@ -139,22 +142,22 @@
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503">
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Shooting Stars</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Shooting Stars</h2>
+        <p class="text-white leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-red-500 inline-flex items-center ">More »</a></p>
         <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a> -->
         
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          <p>+</p>
+          <p class="text-white">+</p>
         </div>
 
       </div>
@@ -162,22 +165,22 @@
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504">
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The Catalyzer</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <h2 class="text-xl font-medium title-font text-white mt-5">The Catalyzer</h2>
+        <p class="text-white leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-red-500 inline-flex items-center ">More »</a></p>
         <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          <p>+</p>
+          <p class="text-white">+</p>
         </div>
 
       </div>
@@ -185,22 +188,22 @@
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505">
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The 400 Blows</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-paleviolet inline-flex items-center ">More »</a></p>
+        <h2 class="text-xl font-medium title-font text-white mt-5">The 400 Blows</h2>
+        <p class="text-white leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra <a class="text-red-500 inline-flex items-center ">More »</a></p>
         <!-- <a class="text-paleviolet inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          <p>+</p>
+          <p class="text-white">+</p>
         </div>
 
       </div>
@@ -209,21 +212,7 @@
   
   <div>
     <div class="inline-flex py-24">
-      <!-- <button class="bg-paleviolet hover:bg-gray-300 text-white font-bold py-2 px-4 rounded">
-      « Previous
-      </button>
-      
-      <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-5 border border-paleviolet hover:border-transparent rounded">
-      1
-      </button> -->
-      <!-- <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-paleviolet hover:border-transparent rounded">
-      2
-      </button>
-      <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-paleviolet hover:border-transparent rounded">
-      3
-      </button> -->
-
-      <button class="bg-paleviolet hover:bg-gray-300 text-white font-bold py-2 px-4 ml-5 rounded-full">
+      <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 ml-5 rounded-full">
       Browse All Products ▾
       </button>
     </div>
