@@ -75,6 +75,12 @@
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
         </div>
+
+        <div class="flex justify-center mt-5 px-2">
+      <base-button  class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit" />
+      <base-button  class="ButtonCancle focus:outline-none hover:bg-red-700" label="Cancle" />
+      </div>
+
       </div>
       
       <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -98,6 +104,11 @@
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
         </div>
 
+        <div class="flex justify-center mt-5 px-2">
+      <base-button  class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit" />
+      <base-button  class="ButtonCancle focus:outline-none hover:bg-red-700" label="Cancle" />
+      </div>
+
       </div>
       <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div class="rounded-lg h-64 overflow-hidden">
@@ -119,6 +130,11 @@
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
         </div>
+
+        <div class="flex justify-center mt-5 px-2">
+      <base-button  class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit" />
+      <base-button  class="ButtonCancle focus:outline-none hover:bg-red-700" label="Cancle" />
+      </div>
 
       </div>
     </div>
@@ -151,6 +167,11 @@
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
         </div>
 
+        <div class="flex justify-center mt-5 px-2">
+      <base-button  class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit" />
+      <base-button  class="ButtonCancle focus:outline-none hover:bg-red-700" label="Cancle" />
+      </div>
+
       </div>
       <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div class="rounded-lg h-64 overflow-hidden">
@@ -173,6 +194,11 @@
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
         </div>
 
+        <div class="flex justify-center mt-5 px-2">
+      <base-button  class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit" />
+      <base-button  class="ButtonCancle focus:outline-none hover:bg-red-700" label="Cancle" />
+      </div>
+
       </div>
       <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div class="rounded-lg h-64 overflow-hidden">
@@ -194,6 +220,11 @@
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
         </div>
+
+        <div class="flex justify-center mt-5 px-2">
+      <base-button  class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit" />
+      <base-button  class="ButtonCancle focus:outline-none hover:bg-red-700" label="Cancle" />
+      </div>
 
       </div>
     </div>
