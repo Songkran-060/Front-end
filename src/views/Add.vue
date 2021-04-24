@@ -1,6 +1,6 @@
 <template>
   <router-link to="/Add">
-    <p>hello</p>
+    <p class="text-white">hello</p>
   </router-link>
 
 </template>

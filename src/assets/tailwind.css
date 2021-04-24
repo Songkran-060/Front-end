@@ -1,5 +1,6 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+.image {
+    @apply object-cover object-center h-full w-full;
+}

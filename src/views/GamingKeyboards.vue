@@ -11,37 +11,37 @@
     <div class="-mb-px flex justify-center">
       
         <router-link to="/">
-         <p class="no-underline text-teal-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Accessories
          </p>
         </router-link>
 
          <router-link to="/GamingChairs">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Chairs
          </p>
          </router-link>
 
         <router-link to="/GamingController">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Controller
          </p>
         </router-link>
 
         <router-link to="/GamingHeadsets">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Headsets
          </p>
         </router-link>
 
         <router-link to="/GamingKeyboards">
-         <p class="no-underline text-grey-dark border-b-2 border-teal-dark border-paleviolet uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-teal-dark border-white uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Keyboards
          </p>
         </router-link>
 
         <router-link to="/GamingMice">
-         <p class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
+         <p class="no-underline text-white border-b-2 border-transparent uppercase tracking-wide font-bold text-sm pt-8 py-3 mr-8" >
              Gaming Mice
          </p>
         </router-link>
@@ -67,7 +67,7 @@
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
@@ -90,7 +90,7 @@
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
@@ -113,7 +113,7 @@
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
@@ -145,7 +145,7 @@
           </svg>
         </a> -->
         
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
@@ -168,7 +168,7 @@
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
@@ -191,7 +191,7 @@
           </svg>
         </a> -->
 
-        <div class="flex flew-wrap justify-center items-center bg-white mt-5 px-2">
+        <div class="flex flew-wrap justify-center items-center mt-5 px-2">
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
@@ -205,27 +205,13 @@
     </div>
   </div>
   
-  <div>
+  <!-- <div>
     <div class="inline-flex py-24">
-      <!-- <button class="bg-paleviolet hover:bg-gray-300 text-white font-bold py-2 px-4 rounded">
-      « Previous
-      </button>
-      
-      <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-5 border border-paleviolet hover:border-transparent rounded">
-      1
-      </button> -->
-      <!-- <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-paleviolet hover:border-transparent rounded">
-      2
-      </button>
-      <button class="bg-transparent hover:bg-paleviolet text-paleviolet font-semibold hover:text-white py-2 px-4 ml-2 border border-paleviolet hover:border-transparent rounded">
-      3
-      </button> -->
-
       <button class="bg-paleviolet hover:bg-gray-300 text-white font-bold py-2 px-4 ml-5 rounded-full">
       Browse All Products ▾
       </button>
     </div>
-  </div>
+  </div> -->
 </section>
 
 
