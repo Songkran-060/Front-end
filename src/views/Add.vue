@@ -129,7 +129,7 @@
         </div>
 
         <div class="flex justify-center mt-8 px-2">
-          <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Add"/>
+          <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Submit"/>
           <base-button class="ButtonCancle focus:outline-none hover:bg-red-700" label="Reset"/>
         </div>
       </div>
