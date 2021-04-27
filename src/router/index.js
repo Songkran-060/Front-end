@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import GamingAccessories from '../views/GamingAccessories.vue'
-import GamingChairs from '../views/GamingChairs.vue'
-import GamingController from '../views/GamingController.vue'
-import GamingHeadsets from '../views/GamingHeadsets.vue'
-import GamingKeyboards from '../views/GamingKeyboards.vue'
-import GamingMice from '../views/GamingMice.vue'
+import Logitech from '../views/Logitech.vue'
+import Nubwo from '../views/Nubwo.vue'
+import Razer from '../views/Razer.vue'
+import Fantech from '../views/Fantech.vue'
+import HyperX from '../views/HyperX.vue'
+import Steelseries from '../views/Steelseries.vue'
 import Team from '../views/Team.vue'
 import Add from '../views/Add.vue'
 
 
 const routes = [{
         path: '/',
-        name: 'GamingAccessories',
-        component: GamingAccessories
+        name: 'Logitech',
+        component: Logitech
     },
     {
         path: '/about',
@@ -24,29 +24,29 @@ const routes = [{
             import ( /* webpackChunkName: "about" */ '../views/About.vue')
     },
     {
-        path: '/GamingChairs',
-        name: 'GamingChairs',
-        component: GamingChairs
+        path: '/Nubwo',
+        name: 'Nubwo',
+        component: Nubwo
     },
     {
-        path: '/GamingController',
-        name: 'GamingController',
-        component: GamingController
+        path: '/Razer',
+        name: 'Razer',
+        component: Razer
     },
     {
-        path: '/GamingHeadsets',
-        name: '/GamingHeadsets',
-        component: GamingHeadsets
+        path: '/Fantech',
+        name: '/Fantech',
+        component: Fantech
     },
     {
-        path: '/GamingKeyboards',
-        name: '/GamingKeyboards',
-        component: GamingKeyboards
+        path: '/HyperX',
+        name: '/HyperX',
+        component: HyperX
     },
     {
-        path: '/GamingMice',
-        name: '/GamingMice',
-        component: GamingMice
+        path: '/Steelseries',
+        name: '/Steelseries',
+        component: Steelseries
     },
     {
         path: '/Team',
