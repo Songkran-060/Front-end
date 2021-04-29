@@ -46,15 +46,17 @@
         </p>
       </router-link>
     </div>
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 
   <section class="text-white body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col"></div>
-      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+    <div class="container px-5 py-24 mx-auto grid grid-cols-3 gap-8 flex">
+      <!-- <div class="flex flex-col"></div> -->
+      
+<!-- Loop -->
+<div v-for="product in products" :key="product.productcode">
+      <!-- <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4"> -->
+      <div class="sm:-m-4 -mx-4 -mb-10 -mt-4">  
+        <div class="p-4 sm:mb-0 mb-6">         
           <div class="rounded-lg h-64 overflow-hidden">
             <img
               alt="content"
@@ -62,182 +64,30 @@
               src="https://dummyimage.com/1203x503"
             />
           </div>
-
-          <h2 class="text-xl font-medium title-font text-white mt-5">Shooting Stars</h2>
+          
+          <h2 class="text-xl font-medium title-font text-white mt-5">({{ product.productcode }}) {{ product.productname }}</h2>
           <p class="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra
+            {{ product.productdescription }}
           </p>
 
-          <div class="flex flew-wrap justify-center items-center mt-5 px-2">
+          <div class="flex flew-wrap justify-center items-center mt-5 px-2 ">
             <span lass="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
             <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
             <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
             <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
             <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
           </div>
-
+          
           <div class="flex justify-center mt-5 px-2">
+            <router-link to="/EditProduct">
             <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit"/>
+            </router-link>
             <base-button class="ButtonCancle focus:outline-none hover:bg-red-700" label="Delete"/>
           </div>
-        </div>
-
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              class="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1204x504"
-            />
-          </div>
-
-          <h2 class="text-xl font-medium title-font text-white mt-5">The Catalyzer</h2>
-          <p class="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra
-          </p>
-
-          <div class="flex flew-wrap justify-center items-center mt-5 px-2">
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          </div>
-
-          <div class="flex justify-center mt-5 px-2">
-            <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit"/>
-            <base-button class="ButtonCancle focus:outline-none hover:bg-red-700" label="Delete"/>
-          </div>
-        </div>
-
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              class="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1205x505"
-            />
-          </div>
-
-          <h2 class="text-xl font-medium title-font text-white mt-5">The 400 Blows</h2>
-          <p class="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra
-          </p>
-
-          <div class="flex flew-wrap justify-center items-center mt-5 px-2">
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          </div>
-
-          <div class="flex justify-center mt-5 px-2">
-            <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit"/>
-            <base-button class="ButtonCancle focus:outline-none hover:bg-red-700" label="Delete"/>
-          </div>
+          
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="text-white body-font">
-    <div class="container px-5 mx-auto">
-      <div class="flex flex-col"></div>
-      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              class="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1203x503"
-            />
-          </div>
-          <h2 class="text-xl font-medium title-font text-white mt-5">Shooting Stars</h2>
-          <p class="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra
-          </p>
-
-          <div class="flex flew-wrap justify-center items-center mt-5 px-2">
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          </div>
-
-          <div class="flex justify-center mt-5 px-2">
-            <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit"/>
-            <base-button class="ButtonCancle focus:outline-none hover:bg-red-700" label="Delete"/>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              class="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1204x504"
-            />
-          </div>
-          <h2 class="text-xl font-medium title-font text-white mt-5">The Catalyzer</h2>
-          <p class="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra
-          </p>
-
-          <div class="flex flew-wrap justify-center items-center mt-5 px-2">
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          </div>
-
-          <div class="flex justify-center mt-5 px-2">
-            <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit"/>
-            <base-button class="ButtonCancle focus:outline-none hover:bg-red-700" label="Delete"/>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              class="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1205x505"
-            />
-          </div>
-          <h2 class="text-xl font-medium title-font text-white mt-5">
-            The 400 Blows
-          </h2>
-          <p class="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra
-          </p>
-
-          <div class="flex flew-wrap justify-center items-center mt-5 px-2">
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-            <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
-          </div>
-
-          <div class="flex justify-center mt-5 px-2">
-            <base-button class="ButtonSubmit focus:outline-none hover:bg-indigo-600" label="Edit"/>
-            <base-button class="ButtonCancle focus:outline-none hover:bg-red-700" label="Delete"/>
-          </div>
-
-          <div class="space-y-4">
-            <div class="flow-root">
-              <div class="my-24"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+</div>
     </div>
   </section>
 </template>
@@ -251,5 +101,29 @@ export default {
   components: {
     // HelloWorld
   },
+  data() {
+    return {
+      url: "http://localhost:3000/products",
+      products: [],
+      
+    }
+  },
+  methods: {
+async getSurveyResult(){
+  try {
+    const res = await fetch(this.url)
+    const data = await res.json()
+    return data
+   }
+  catch(error){
+    console.log(`Could not get ${error}`)
+  }
+},
+},
+async created(){
+  this.products = await this.getSurveyResult()
+  },
+  
+
 };
 </script>

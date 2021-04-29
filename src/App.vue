@@ -8,7 +8,7 @@
 
     <router-link to="/">
     <div class="flex items-center mb-4 md:mb-0">
-      <span class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">Gaming Gear</span>
+      <span class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">&#127918; Gaming Gear</span>
     </div>
     </router-link>
 

@@ -7,6 +7,7 @@ import HyperX from '../views/HyperX.vue'
 import Steelseries from '../views/Steelseries.vue'
 import Team from '../views/Team.vue'
 import Add from '../views/Add.vue'
+import EditProduct from '../views/EditProduct.vue'
 
 
 const routes = [{
@@ -57,6 +58,11 @@ const routes = [{
         path: '/Add',
         name: '/Add',
         component: Add
+    },
+    {
+        path: '/EditProduct',
+        name: '/EditProduct',
+        component: EditProduct
     },
 ]
 
