@@ -14,7 +14,7 @@
 
       <div class="lg:w-1/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 class="text-white text-2xl mb-1 font-medium title-font">
-          <p><span>&#9997;&#127995;</span> Edit Products</p> 
+          <p><span>&#9997;&#127995;</span> Edit Product</p> 
         </h2>
       <form @submit.prevent="submitForm">
         <div class="relative mb-4">

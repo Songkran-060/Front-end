@@ -66,9 +66,7 @@
           </div>
           
           <h2 class="text-xl font-medium title-font text-white mt-5">{{ product.productname }}</h2>
-          <p class="text-base leading-relaxed mt-2">
-            {{ product.productdescription }}
-          </p>
+          <p class="text-base leading-relaxed mt-2">{{ product.productdescription }}</p>
 
           <div class="flex flew-wrap justify-center items-center mt-5 px-2 ">
             <span class="cursor-pointer w-6 h-6 rounded-full last:mr-0 mr-2 bg-gray-300"></span>
